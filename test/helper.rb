@@ -3,7 +3,7 @@ require 'test/unit'
 require 'shoulda'
 require 'open-uri'
 require 'yaml'
-require "mocha"
+require 'mocha/setup'
 
 begin; require 'turn'; rescue LoadError; end
 
